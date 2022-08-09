@@ -21,7 +21,7 @@ const Header = ()=>{
                     Tavolozza
                 </Link>
                 <Link className='nav-link' to='/profilo'>
-                    Profilo
+                    Chi siamo
                 </Link>
                     </ul>
 

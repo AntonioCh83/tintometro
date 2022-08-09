@@ -8,11 +8,10 @@ const Profilo = () => {
   return (
     <div className='row'>
       <button className='btn btn-success col-2 offset-1 ' onClick={()=>navigate('/')}>Torna alla home</button>
-      <h2 style={{fontVariant:'small-caps'}}>Profile Page</h2>
+      <h2 style={{fontVariant:'small-caps'}}>Chi siamo</h2>
         <nav className='d-flex flex-row justify-content-center mx-auto gap-2 mb-2'>
             <Link to={'mio'}>Il mio profilo</Link>
-            <Link to={'/profilo/2'}>Profilo 2</Link>
-            <Link to={'/profilo/utenti'}>Profilo Utenti</Link>
+            
         </nav>
         <div>
             <Outlet/>

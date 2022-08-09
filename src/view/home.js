@@ -2,7 +2,7 @@ import React from 'react';
 import Lottie from 'react-lottie';
 import animation from '../assets/animations/rotate-colors.json';
 import SinglePage from '../components/singlePage';
-import image from "../assets/image/sfondo.jpg";
+import image from "../assets/image/bgHome.jpg";
 
 const Home = () => {
   return (
